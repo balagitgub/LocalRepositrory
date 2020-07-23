@@ -21,7 +21,7 @@ namespace OTP.Controllers
         {
 
 
-            //is working fine firtrddd
+            //is working fine firtrddd 123
             Random r = new Random();
             string OTP = r.Next(1000, 9999).ToString();
             string PH = person.Phonenumber;
