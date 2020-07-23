@@ -19,6 +19,9 @@ namespace OTP.Controllers
         [HttpPost]
         public ActionResult Index(model person)
         {
+
+
+            //is working
             Random r = new Random();
             string OTP = r.Next(1000, 9999).ToString();
             string PH = person.Phonenumber;
